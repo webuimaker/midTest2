@@ -48,6 +48,9 @@ data.users.each do |user|
   ignore: true
 end
 
+
+
+
 # proxy product.yml files to product.html 
 data.products.each do |product|
   # product is an array: [filename, {data}]

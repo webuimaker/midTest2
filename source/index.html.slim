@@ -78,22 +78,18 @@ div.container
           div.row.no-gutters
             div.col-sm-6
               div.photos
-			    div.owl-carousel.gallery-slider
-				  div.item				    
-				    = image_tag 'images/gal-img.png'					
-				  div.item				    
-				    = image_tag 'images/gal-img.png'					
-				  div.item				    
-				    = image_tag 'images/gal-img.png'					
-				  div.item				    
-				    = image_tag 'images/gal-img.png'
+			    div.owl-carousel.gallery-slider				  			    
+		          - data.stays.image.imgMap.images.each do | imagetxt |
+				    div.item
+				      = image_tag imagetxt.image
 			    div.mark-f#counter
 			      span				  				    
 				  = image_tag 'images/img-count.png'
+
 				    
             div.col-sm-6
 			  div.map				  				    
-			    = image_tag 'images/map-img.png'
+			    = image_tag data.stays.maping.mapadd.image
 				div.bubble				  				    
 			      = image_tag 'images/ic_place.png'
 				  
