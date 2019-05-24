@@ -47,6 +47,16 @@ data.products.each do |product|
   ignore: true
 end
 
+
+# proxy product.yml files to product.html 
+data.users.each do |user|
+  # product is an array: [filename, {data}]
+  proxy "/user/#{user[1][:title].parameterize}/index.html", "product.html", 
+  locals: {user: user[1]}, 
+  layout: 'product-detail',
+  ignore: true
+end
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
