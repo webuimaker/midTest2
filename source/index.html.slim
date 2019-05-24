@@ -1,17 +1,30 @@
----
-title: Kaldi - Middleman + Netlify CMS Example
----
 
-section.hero style=background_image(image_path(data.pages.home.hero.image))
-  .caption
-    .row
-      h1 = data.pages.home.hero.title
+// Intro section
+// TODO: make dynamic
 
-section.homepage-story
+section.hero-section
   .container
     .row
-      .story-content
-        = markdown data.pages.home.story
+      .col-md-12
+        h1.title.mark-f BRIAN’S BACH
+        p.text
+          | Hey all! This is the summer to celebrate the end of Brian’s bachelorhood.
+          br/
+          | I know we are all excited for the wedding but
+          | this is going to... more
+        .row
+          .col-md-4
+            .item.mark-f
+              .top Date
+              .bottom July 20 - 22
+          .col-md-4
+            .item.mark-f
+              .top Location
+              .bottom Miami, FL
+          .col-md-4
+            .item.mark-f
+              .top Guests
+              .bottom 13
 		
 
 div.container
