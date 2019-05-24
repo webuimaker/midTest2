@@ -2,4 +2,4 @@ imgMap:
   images:
     - image: 'images/gal-img.png'
     - image: 'images/gal-img.png'
-  map: 'http://placehold.it/360x240'
+mapadd: images/gal-img.png

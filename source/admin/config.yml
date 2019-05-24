@@ -36,6 +36,22 @@ collections:
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Image, name: image, widget: image, required: true}
+      
+      
+
+  - name: stay
+    label: Stay
+    format: yml
+    extension: yml
+    folder: data/users/image.yml
+    create: true
+    slug: '{{title}}'
+    fields:
+      - label: ImgMap
+            name: ImgMap
+            widget: object
+            fields:
+              - {label: Image, name: Image, widget: image}
 
 #markdown middleman blog example
   - name: blog
