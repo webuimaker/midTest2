@@ -42,7 +42,7 @@ end
 # proxy product.yml files to product.html 
 data.users.each do |user|
   # product is an array: [filename, {data}]
-  proxy "/user/#{user[1][:title].parameterize}/index.html", "product.html", 
+  proxy "/user/#{user[1][:title].parameterize}/index.html", "user.html", 
   locals: {user: user[1]}, 
   layout: 'product-detail',
   ignore: true
