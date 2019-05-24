@@ -1,15 +1,26 @@
-header.header-primary
-  .logo
-    = link_to '/'
-      = image_tag 'logo.svg', alt: 'Kaldi'
-
-  a.nav-button href='#'
-    = image_tag 'nav-open.svg', class: 'open'
-    = image_tag 'nav-close.svg', class: 'close'
-
-  nav.navigation
-    ul
-      - data.settings.navigation.nav_items.each do | nav_item |
-        li
-          = nav_link nav_item.label, nav_item.path
-
+header.header
+  .container
+    .row
+      .col-md-12
+        nav.navbar.navbar-expand-lg
+          a.navbar-brand href="#"
+            img alt="" src="images/logo.png" /
+          .ml-auto.d-flex.flex-row.top-menu-wrap
+            a.menu-button href="#"
+              span.first
+              span.second
+              span.third
+              i MENU
+            ul.main-menu
+              li.dropdown
+                a#dropdownMenuLink.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button"  My Trips
+                .dropdown-menu aria-labelledby="dropdownMenuLink"
+                  a.dropdown-item href="#"  My Trip
+                  a.dropdown-item href="#"  My Trip1
+                  a.dropdown-item href="#"  My Trip2
+              li
+                a href="#"  Learn More
+              li
+                a href="#"  About Us
+              li.sign-in
+                a href="#"  SIGN IN
