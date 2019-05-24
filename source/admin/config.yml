@@ -35,28 +35,27 @@ collections:
     slug: '{{title}}'
     fields:
       - {label: Title, name: title, widget: string, required: true}
-      - {label: Image, name: image, widget: image, required: true}
-      
-      
+      - {label: Image, name: image, widget: image, required: true}     
+  
 
   - name: stay
-    label: Stay
+    label: stay
     files:
       - file: data/stays/image.yml
         label: Images
-        name: image
+        name: images
         fields:
           - label: Slide Image
             name: images
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-      - file: data/stays/image.yml
+      - file: data/stays/maped.yml
         label: Map
         name: map
         fields:
-          - {label: Map, name: mapadd, widget: image}          
-      - file: data/stays/image.yml
+          - {label: Map, name: mapadd, widget: image}
+      - file: data/stays/accordion.yml
         label: Accordion
         name: accordion
         fields:

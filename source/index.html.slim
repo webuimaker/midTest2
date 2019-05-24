@@ -89,12 +89,12 @@ div.container
 				    
             div.col-sm-6
 			  div.map				  				    
-			    = image_tag data.stays.image.mapadd
+			    = image_tag data.stays.maped.mapadd
 				div.bubble				  				    
 			      = image_tag 'images/ic_place.png'
 				  
 		div#accordion.app-info
-		  - data.stays.image.accordion.each do | accordion |
+		  - data.stays.accordion.accordion.each do | accordion |
 		    div.item
 		      div.item-top#heading			
                 = link_to  '#collapseOne', :class => 'collapsed', :datatoggle => 'collapse', :ariaexpanded => 'true', :ariacontrols => 'collapseOne'
