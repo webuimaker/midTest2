@@ -41,17 +41,16 @@ collections:
 
   - name: stay
     label: Stay
-    format: yml
-    extension: yml
-    folder: data/users/image.yml
-    create: true
-    slug: '{{title}}'
-    fields:
-      - label: ImgMap
-            name: ImgMap
-            widget: object
+    files:
+      - file: data/stays/image.yml
+        label: Images
+        name: image
+        fields:
+          - label: Slide Image
+            name: images
+            widget: list
             fields:
-              - {label: Image, name: Image, widget: image}
+              - {label: Image, name: image, widget: image}
 
 #markdown middleman blog example
   - name: blog
