@@ -94,16 +94,16 @@ div.container
 			      = image_tag 'images/ic_place.png'
 				  
 		div#accordion.app-info
-		  div.item
-		    div.item-top#headingOne			
-              = link_to  '#collapseOne', :class => 'collapsed', :datatoggle => 'collapse', :ariaexpanded => 'true', :ariacontrols => 'collapseOne'
-			    = image_tag 'images/home-icon.png'
-				span
-				    | 4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille. Perfect place for a group of...
-			  div.arrow
-			    i.fa.fa-chevron-down
-			div#collapseOne.collapse
-			                        | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia  aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put
+		  - data.stays.image.accordion.each do | accordion |
+		    div.item
+		      div.item-top#heading			
+                = link_to  '#collapseOne', :class => 'collapsed', :datatoggle => 'collapse', :ariaexpanded => 'true', :ariacontrols => 'collapseOne'
+			      = image_tag accordion.icon
+				  span = accordion.title
+			    div.arrow
+			      i.fa.fa-chevron-down
+			  div#collapseOne.collapse = accordion.content
+			                         
 									
 	  .box
 	    .top

@@ -1,5 +1,4 @@
-imgMap:
-  images:
-    - image: 'images/gal-img.png'
-    - image: 'images/gal-img.png'
+images:
+  - image: 'images/gal-img.png'
+  - image: 'images/gal-img.png'
 mapadd: images/gal-img.png

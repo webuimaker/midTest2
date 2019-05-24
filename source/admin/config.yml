@@ -51,6 +51,23 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
+      - file: data/stays/image.yml
+        label: Map
+        name: map
+        fields:
+          - {label: Map, name: mapadd, widget: image}          
+      - file: data/stays/image.yml
+        label: Accordion
+        name: accordion
+        fields:
+          - label: Accordion
+            name: accordion
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Id, name: id, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: string}
 
 #markdown middleman blog example
   - name: blog
