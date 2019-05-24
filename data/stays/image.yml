@@ -1,5 +1,5 @@
 images:
-  - image: 'images/gal-img.png'
-  - image: 'images/gal-img.png'    
-  - image: 'images/gal-img.png'
-mapadd: images/map-img.png
+  - image: images/gal-img.png
+  - image: images/gal-img.png
+  - image: images/gal-img.png
+  - image: /images/uploads/news_item-01.jpg
