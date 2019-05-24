@@ -38,21 +38,21 @@ end
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
-# proxy product.yml files to product.html 
-data.products.each do |product|
-  # product is an array: [filename, {data}]
-  proxy "/product/#{product[1][:title].parameterize}/index.html", "product.html", 
-  locals: {product: product[1]}, 
-  layout: 'product-detail',
-  ignore: true
-end
-
 
 # proxy product.yml files to product.html 
 data.users.each do |user|
   # product is an array: [filename, {data}]
   proxy "/user/#{user[1][:title].parameterize}/index.html", "product.html", 
   locals: {user: user[1]}, 
+  layout: 'product-detail',
+  ignore: true
+end
+
+# proxy product.yml files to product.html 
+data.products.each do |product|
+  # product is an array: [filename, {data}]
+  proxy "/product/#{product[1][:title].parameterize}/index.html", "product.html", 
+  locals: {product: product[1]}, 
   layout: 'product-detail',
   ignore: true
 end

@@ -12,6 +12,40 @@ section.homepage-story
     .row
       .story-content
         = markdown data.pages.home.story
+		
+
+div.container
+  .row
+    .col-md-12
+	  .box.first
+	    .top
+		  .row
+		    .col-5
+			  .title.mark-f
+			               | Users
+			  .sub
+			      | 13 guests confirmed
+		    .col-7
+			  ul.actions
+			    li
+				  = link_to '/#/'
+				    = image_tag 'images/ic_sms.png'
+					span.mark-f 
+					           | Text
+			    li
+				  = link_to '/#/'
+				    = image_tag 'images/ic_email.png'
+					span.mark-f 
+					           | Email
+		ul.guest-list
+		  //product is structured: ['filename', 'data']
+		  //sort by newest product
+		  - data.users.each do | user |
+
+			//to get the actual data:
+			= partial 'partials/users/users', locals: {user: user[1]}
+			
+			
 
 section.homepage-products.products
   .container
