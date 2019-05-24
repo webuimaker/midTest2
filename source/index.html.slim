@@ -59,3 +59,128 @@ div.container
 			= partial 'partials/users/users', locals: {user: user[1]}
 			
 			
+	  .box
+	    .top
+		  .row
+		    .col-5
+			  .title.mark-f
+			               | Stay
+			  .sub
+			      | 4 beds, 2 bath
+		    .col-7
+			  ul.actions
+			    li
+				  = link_to '/#/'
+				    = image_tag 'images/map-ico.png'
+					span.mark-f 
+					           | Map
+		div.appartment-wrap
+          div.row.no-gutters
+            div.col-sm-6
+              div.photos
+			    div.owl-carousel.gallery-slider
+				  div.item				    
+				    = image_tag 'images/gal-img.png'					
+				  div.item				    
+				    = image_tag 'images/gal-img.png'					
+				  div.item				    
+				    = image_tag 'images/gal-img.png'					
+				  div.item				    
+				    = image_tag 'images/gal-img.png'
+			    div.mark-f#counter
+			      span				  				    
+				  = image_tag 'images/img-count.png'
+				    
+            div.col-sm-6
+			  div.map				  				    
+			    = image_tag 'images/map-img.png'
+				div.bubble				  				    
+			      = image_tag 'images/ic_place.png'
+				  
+		div#accordion.app-info
+		  div.item
+		    div.item-top#headingOne			
+              = link_to  '#collapseOne', :class => 'collapsed', :datatoggle => 'collapse', :ariaexpanded => 'true', :ariacontrols => 'collapseOne'
+			    = image_tag 'images/home-icon.png'
+				span
+				    | 4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille. Perfect place for a group of...
+			  div.arrow
+			    i.fa.fa-chevron-down
+			div#collapseOne.collapse
+			                        | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia  aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put
+									
+	  .box
+	    .top
+		  .row
+		    .col-12
+			  .title
+			        | Itineary
+			  .sub
+			      | 6 events planned over 3 days
+	    div.itineary-wrap
+		  div.item
+		    div.row.no-gutters-alt
+			  div.col-1
+			    div.circle
+			  div.col-11
+			    div.title.mark-f
+				             | Dinner @ Franklin BBQ
+				div.date.mark-f
+				             | July 20 at 4:00 PM
+				p.text
+				      | Reservation for 16 in the upstairs bar is at 8.
+		  div.item
+		    div.row.no-gutters-alt
+			  div.col-1
+			    div.circle
+			  div.col-11
+			    div.title.mark-f
+				             | Dinner @ Franklin BBQ
+				div.date.mark-f
+				             | July 20 at 4:00 PM
+				p.text
+				      | Reservation for 16 in the upstairs bar is at 8.
+				div.images
+				  = image_tag 'images/atxcursions.png'
+				  = image_tag 'images/atxcursions.png'
+		  div.item
+		    div.row.no-gutters-alt
+			  div.col-1
+			  div.col-11
+			    = link_to  '#', :class => 'mark-f.more', :id => 'more'
+				  span
+				      | more
+				  i.fa.fa-angle-down
+			
+			
+	  .box
+	    .top
+		  .row
+		    .col-6
+			  .title
+			        | Costs
+			  .sub
+			      | $2,800.00 split 13 ways
+		    .col-6
+			  ul.actions
+			    li
+				  = link_to '/#/'
+				    = image_tag 'images/pay-ico.png'
+					span.mark-f 
+					           | Pay
+		div.pay-wrap 
+		  div.row
+		    div.col-sm-6
+		      div.pay
+			    div.sum.mark-f
+				             | $429.86
+				div.for
+				       | wed by you
+		    div.col-sm-6
+		      div.pay
+			    div.sum.mark-f.green
+				             | $98.12
+				div.for
+				       | wed by you
+			
+			
