@@ -69,17 +69,16 @@ collections:
               - {label: Content, name: content, widget: string}
       
 
-
-  - name: Itineary
+  - name: itineary
     label: Itineary
     files:
-      - file: data/itineary/itinearys.yml
+      - file: "data/itineary/itinearys.yml"
         label: Itineary
         name: itineary
         fields:
           - label: Itineary
             name: itineary
-            widget: list
+            widget: object
             fields:
               - {label: Title, name: title, widget: text}
               - {label: MapUrl, name: mapUrl, widget: map}
