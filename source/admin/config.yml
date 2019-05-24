@@ -67,11 +67,13 @@ collections:
               - {label: Id, name: id, widget: number}
               - {label: Title, name: title, widget: text}
               - {label: Content, name: content, widget: string}
+      
+
 
   - name: Itineary
-    label: itineary
+    label: Itineary
     files:
-      - file: data/itineary/itineary.yml
+      - file: data/itineary/itinearys.yml
         label: Itineary
         name: itineary
         fields:
