@@ -14318,7 +14318,9 @@ body {
   width: 17px;
   height: 24px;
   background: url(../images/ic_place_48px.png) no-repeat;
+  display:none;
 }
+.itineary-wrap .item .title a {float:right; margin-right:5px;}
 
 .itineary-wrap .item .date {
   font-size: 13px;

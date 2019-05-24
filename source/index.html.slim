@@ -113,32 +113,23 @@ div.container
 			        | Itineary
 			  .sub
 			      | 6 events planned over 3 days
-	    div.itineary-wrap
-		  div.item
-		    div.row.no-gutters-alt
-			  div.col-1
-			    div.circle
-			  div.col-11
-			    div.title.mark-f
-				             | Dinner @ Franklin BBQ
-				div.date.mark-f
-				             | July 20 at 4:00 PM
-				p.text
-				      | Reservation for 16 in the upstairs bar is at 8.
-		  div.item
-		    div.row.no-gutters-alt
-			  div.col-1
-			    div.circle
-			  div.col-11
-			    div.title.mark-f
-				             | Dinner @ Franklin BBQ
-				div.date.mark-f
-				             | July 20 at 4:00 PM
-				p.text
-				      | Reservation for 16 in the upstairs bar is at 8.
-				div.images
-				  = image_tag 'images/atxcursions.png'
-				  = image_tag 'images/atxcursions.png'
+	    div.itineary-wrap		  
+		  - data.itineary.itinearys.itineary.each do | itineary |
+		    div.item
+		      div.row.no-gutters-alt
+			    div.col-1
+			      div.circle
+			    div.col-11
+			      div.title.mark-f 
+				    = itineary.title 
+				    = link_to itineary.mapUrl
+					  = image_tag 'images/ic_place_48px.png'
+				 
+				  div.date.mark-f = itineary.date 
+				  p.text = itineary.text
+				  div.images
+				    - itineary[:images].each do |photo|
+				      = image_tag photo.image
 		  div.item
 		    div.row.no-gutters-alt
 			  div.col-1

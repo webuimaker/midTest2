@@ -54,7 +54,7 @@ collections:
         label: Map
         name: map
         fields:
-          - {label: Map, name: mapadd, widget: image}
+          - {label: Map, name: mapadd, widget: map}
       - file: data/stays/accordion.yml
         label: Accordion
         name: accordion
@@ -64,8 +64,42 @@ collections:
             widget: list
             fields:
               - {label: Icon, name: icon, widget: image}
-              - {label: Id, name: id, widget: string}
-              - {label: Title, name: title, widget: string}
+              - {label: Id, name: id, widget: number}
+              - {label: Title, name: title, widget: text}
+              - {label: Content, name: content, widget: string}
+
+  - name: Itineary
+    label: itineary
+    files:
+      - file: data/itineary/itineary.yml
+        label: Itineary
+        name: itineary
+        fields:
+          - label: Itineary
+            name: itineary
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: text}
+              - {label: MapUrl, name: mapUrl, widget: map}
+              - {label: Date, name: date, widget: date}
+              - {label: Text, name: text, widget: text}
+              - {label: images, name: images, widget: list}
+      - file: data/stays/maped.yml
+        label: Map
+        name: map
+        fields:
+          - {label: Map, name: mapadd, widget: map}
+      - file: data/stays/accordion.yml
+        label: Accordion
+        name: accordion
+        fields:
+          - label: Accordion
+            name: accordion
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Id, name: id, widget: number}
+              - {label: Title, name: title, widget: text}
               - {label: Content, name: content, widget: string}
 
 #markdown middleman blog example
