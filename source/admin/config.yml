@@ -69,3 +69,20 @@ collections:
               - {label: Text, name: text, widget: markdown}              
               - {label: "images", name: images, widget: list, fields: [
                   {label: "Images", name: "images", widget: "image"}]}
+                  
+
+  - name: costs
+    label: Costs
+    files:
+      - file: "data/costs/costs.yml"
+        label: Costs
+        name: costs
+        fields:
+          - label: Costs
+            name: costs
+            widget: object
+            fields:
+              - {label: TotalCost, name: totalCost, widget: number}
+              - {label: Ways, name: ways, widget: number}
+              - {label: Owed By You, name: owedByYou, widget: number}
+              - {label: Qwed To You, name: owedToYou, widget: number} 
