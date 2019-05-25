@@ -1,6 +1,5 @@
 events:
   - date: 2019-05-30T18:30:00.000Z
-    image: /images/uploads/homepage-herdo.jpg
     images:
       - images: /images/uploads/news_item-02.jpg
       - images: /images/uploads/news_item-03.jpg
@@ -10,7 +9,6 @@ events:
       Perfect place for a group of... demo text
     title: Great coffee with a conscience
   - date: 2019-05-30T18:30:00.000Z
-    image: /images/uploads/homepage-herdo.jpg
     images:
       - images: /images/uploads/news_item-01.jpg
       - images: /images/uploads/news_item-03.jpg
@@ -19,3 +17,9 @@ events:
       4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille.
       Perfect place for a group of...
     title: Great coffee with a conscience second
+  - date: 2019-05-25T03:12:55.630Z
+    mapUrl: abc.com
+    text: >-
+      Cars leave the house at 11:30am. We buy beer and then catch a bus fr We’re
+      on the infield w/ drinks in hand by 12:00pm stat.
+    title: ATXcursions
