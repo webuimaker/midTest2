@@ -64,4 +64,5 @@ collections:
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
+              - {label: Date, name: date, widget: date}
               - {label: Image, name: image, widget: image}

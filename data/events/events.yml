@@ -1,5 +1,7 @@
 hero:
-  - image: /images/uploads/homepage-hero.jpg
-    title: Great coffee with a conscience
-  - image: /images/uploads/homepage-hero.jpg
-    title: Great coffee with a conscience
+  - title: Great coffee with a conscience
+    date: July 21 at 10:00 AM
+    image: /images/uploads/homepage-herdo.jpg
+  - title: Great coffee with a conscience
+    date: July 21 at 10:00 AM
+    image: /images/uploads/homepage-herdo.jpg
