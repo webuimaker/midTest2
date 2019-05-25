@@ -1,9 +1,9 @@
 hero:
   - date: 2019-05-30T18:30:00.000Z
     image: /images/uploads/homepage-herdo.jpg
+    mapUrl: 'https://www.google.com/'
     title: Great coffee with a conscience
-    mapUrl: abc.com
   - date: 2019-05-30T18:30:00.000Z
     image: /images/uploads/homepage-herdo.jpg
-    title: Great coffee with a conscience second
     mapUrl: xyz.com
+    title: Great coffee with a conscience second
