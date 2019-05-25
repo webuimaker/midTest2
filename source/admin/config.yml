@@ -59,8 +59,8 @@ collections:
         label: Events
         name: events
         fields:
-          - label: Hero
-            name: hero
+          - label: Events
+            name: events
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
