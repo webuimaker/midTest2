@@ -18,6 +18,8 @@ events:
       Perfect place for a group of...
     title: Great coffee with a conscience second
   - date: 2019-05-25T03:12:55.630Z
+    images:
+      - images: /images/uploads/news_item-02.jpg
     mapUrl: abc.com
     text: >-
       Cars leave the house at 11:30am. We buy beer and then catch a bus fr We’re
