@@ -121,6 +121,7 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 
 $(".itineary-wrap .item:nth-child(2n)").nextAll().addClass("hidden");
 $(".itineary-wrap .item:last-child()").removeClass("hidden");
-
-
+ 
+ $( "#accordion .item .collapse" ).attr( "data-parent", "#accordion" );
+ $( "#accordion .item .item-top a" ).attr( "data-toggle", "collapse" );
 

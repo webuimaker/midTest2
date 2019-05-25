@@ -94,10 +94,10 @@ div.container
 			      = image_tag 'images/ic_place.png'
 				  
 		div#accordion.app-info
-		  - data.stays.accordion.accordion.each do | accordion |
+		  - data.stays.accordion.accordion.each do | accordion, index |
 		    div.item
 		      div.item-top#heading			
-                = link_to  '#collapseOne', :class => 'collapsed', :datatoggle => 'collapse', :ariaexpanded => 'true', :ariacontrols => 'collapseOne'
+                = link_to  'index', :class => 'collapsed'
 			      = image_tag accordion.icon
 				  span = accordion.title
 			    div.arrow
