@@ -1,17 +1,11 @@
-itineary:
-  - title: Dinner @ Franklin BBQ
+itineary: 
+  - 
+    date: "July 20 at 4:00 PM"
+    images: 
+      - 
+        image: images/gal-img.png
+      - 
+        image: images/gal-img.png
     mapUrl: www.abc.com
-    date: July 20 at 4:00 PM
-    text: >-
-      Reservation for 16 in the upstairs bar is at 8.
-    images:
-      - image: images/gal-img.png
-      - image: images/gal-img.png
-  - title: images/home-icon.png
-    mapUrl: www.abc.com
-    date: 1
-    text: >-
-      4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille. Perfect place for a group of...
-    images:
-      - image: images/gal-img.png
-      - image: images/gal-img.png
+    text: "Reservation for 16 in the upstairs bar is at 8."
+    title: "Dinner @ Franklin BBQ"
