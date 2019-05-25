@@ -1,11 +1,4 @@
-itineary: 
-  - 
-    date: "July 20 at 4:00 PM"
-    images: 
-      - 
-        image: images/gal-img.png
-      - 
-        image: images/gal-img.png
+itineary:
+  - title: Dinner @ Franklin BBQ
     mapUrl: www.abc.com
-    text: "Reservation for 16 in the upstairs bar is at 8."
-    title: "Dinner @ Franklin BBQ"
+    date: July 20 at 4:00 PM
