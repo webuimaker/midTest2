@@ -14,4 +14,6 @@ html
       = yield
     = partial 'partials/shared/footer'
 
+    = javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', async: true
+	
     = javascript_include_tag 'app', async: true
