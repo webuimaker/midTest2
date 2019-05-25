@@ -49,6 +49,25 @@ collections:
               - {label: Id, name: id, widget: number}
               - {label: Title, name: title, widget: text}
               - {label: Content, name: content, widget: string}
+              
+
+
+  - name: itineary
+    label: Pages
+    files:
+      - file: "data/pages/home.yml"
+        label: Homepage
+        name: home
+        fields:
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+          - label: Story
+            name: story
+            widget: markdown
       
 
   - name: itineary
@@ -56,7 +75,7 @@ collections:
     files:
       - file: "data/itineary/itinearys.yml"
         label: Itineary
-        name: itineary
+        name: itinearys
         fields:
           - label: Itineary
             name: itineary
