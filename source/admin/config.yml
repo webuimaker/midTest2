@@ -61,10 +61,7 @@ collections:
         fields:
           - label: Hero
             name: hero
-            widget: object
+            widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
-          - label: Story
-            name: story
-            widget: markdown
