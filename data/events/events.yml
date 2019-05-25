@@ -1,8 +1,8 @@
 events:
   - date: 2019-05-30T18:30:00.000Z
     images:
-      - images: /images/uploads/news_item-02.jpg
-      - images: /images/uploads/news_item-03.jpg
+      - images: /images/uploads/atxcursions.png
+      - images: /images/uploads/atxcursions.png
     mapUrl: 'https://www.google.com/'
     text: >-
       4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille.
