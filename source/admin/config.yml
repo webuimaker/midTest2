@@ -65,7 +65,6 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Date, name: date, widget: date}
-              - {label: Image, name: image, widget: image}
               - {label: MapUrl, name: mapUrl, widget: string}
               - {label: Text, name: text, widget: markdown}              
               - {label: "images", name: images, widget: list, fields: [
