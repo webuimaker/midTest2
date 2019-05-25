@@ -66,4 +66,4 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Date, name: date, widget: date}
               - {label: Image, name: image, widget: image}
-              - {label: MapUrl, name: mapUrl, widget: map}
+              - {label: MapUrl, name: mapUrl, widget: string}
