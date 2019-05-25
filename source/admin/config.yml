@@ -52,17 +52,19 @@ collections:
               
 
 
-  - name: itineary
-    label: Itineary
+  - name: events
+    label: Events
     files:
-      - file: "data/itineary/itinearys.yml"
-        label: Itinearys
-        name: itinearys
+      - file: "data/events/events.yml"
+        label: Events
+        name: events
         fields:
-          - label: Itineary
-            name: itineary
+          - label: Hero
+            name: hero
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: MapUrl, name: mapUrl, widget: map}
-              - {label: Date, name: date, widget: date}
+              - {label: Image, name: image, widget: image}
+          - label: Story
+            name: story
+            widget: markdown
