@@ -68,3 +68,9 @@ collections:
               - {label: Image, name: image, widget: image}
               - {label: MapUrl, name: mapUrl, widget: string}
               - {label: Text, name: text, widget: markdown}
+                fields:
+                  - label: Images
+                    name: images
+                    widget: list
+                    fields:
+                      - {label: Images, name: images, widget: image}
