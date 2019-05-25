@@ -1,21 +1,21 @@
 hero:
   - date: 2019-05-30T18:30:00.000Z
     image: /images/uploads/homepage-herdo.jpg
+    images:
+      - images: /images/uploads/news_item-02.jpg
+      - images: /images/uploads/news_item-03.jpg
     mapUrl: 'https://www.google.com/'
     text: >-
       4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille.
       Perfect place for a group of... demo text
     title: Great coffee with a conscience
-    images:
-      - image: images/gal-img.png
-      - image: images/gal-img.png
   - date: 2019-05-30T18:30:00.000Z
     image: /images/uploads/homepage-herdo.jpg
+    images:
+      - images: /images/uploads/news_item-01.jpg
+      - images: /images/uploads/news_item-03.jpg
     mapUrl: xyz.com
     text: >-
       4 bedroom, 2 bath apartment with pool, hot tub, large lawn, grille.
       Perfect place for a group of...
     title: Great coffee with a conscience second
-    images:
-      - image: images/gal-img.png
-      - image: images/gal-img.png
