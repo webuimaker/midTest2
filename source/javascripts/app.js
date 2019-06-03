@@ -124,4 +124,4 @@ $(".itineary-wrap .item:last-child()").removeClass("hidden");
  
  $( "#accordion .item .collapse" ).attr( "data-parent", "#accordion" );
  $( "#accordion .item .item-top a" ).attr( "data-toggle", "collapse" );
-
+ 
